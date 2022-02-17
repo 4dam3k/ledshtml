@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+    html {
+      /* font-family: "Comic Neue"; */
+      font-family: 'Poppins';
+      display: inline-block;
+      margin: 0px auto;
+      text-align: center;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .formin-horizontal {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    body {
+      margin-top: 50px;
+    }
+
+    .label {
+      color: #00ffff;
+      font-size: 20px;
+      text-align: center;
+      ;
+    }
+
+    .form-group {
+      width: 10ex;
+      padding: 4ex;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    input[type="number"] {
+      background-color: #00ffff;
+      text-align: center;
+      font-size: 25px;
+      width: 10ex;
+      border: none;
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    .button {
+      /* background-color: #43db36; */
+      background-color: #0a0a0a;
+      height: 4ex;
+      /* box-shadow: 0 0 15px #00ffff; */
+      border: 1px solid #00ffff;
+      /* box-shadow: 0 0 15px #43db36; */
+      color: white;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 25px auto;
+      cursor: pointer;
+      border-radius: 4px;
+      font-family: 'Poppins';
+    }
+
+    .potwierdz {
+      display: flex;
+      justify-content: center;
+      /* width: 100vh */
+    }
+
+    p {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      background: #000000;
+      border: 2px solid #000000;
+      border-radius: 8px;
+      /* width: 33vh; */
+
+    }
+
+    input[type="range"]:focus {
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      appearance: none;
+      background: #00ffff;
+      border-radius: 8px;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      background: #00fd0a;
+      appearance: none;
+      box-shadow: 0 0 15px 5px #00ffff;
+      height: 16px;
+      width: 16px;
+      border-radius: 8px;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    label[class="jasnosc"] {
+      font-size: 20px;
+      color: #ffffff;
+
+    }
+
+    form[class="brightness"] {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* width: 33.333333%; */
+      width: 50vh;
+      text-align: center;
+      margin: auto;
+      margin-top: 15px;
+    }
+
+    a[id="rangeValue"] {
+      font-size: 25px;
+      color: #ffffff;
+    }
+
+    form[class="colorinput"] {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    input[type="color"] {
+      appearance: none;
+      outline: none;
+      width: 10vh;
+      height: 10vh;
+      /* box-shadow: 0px 0px 16px 4px #00ffff; */
+      border: 1px solid #00ffff;
+      margin: auto;
+      margin-top: 5%
+      -webkit-appearance: none;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="color"]::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+    input[type="color"]::-webkit-color-swatch {
+      border: none;
+    }
+
+    div[id="mode"] {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    div[class="mode"] {
+      padding: 5px;
+
+    }
+
+    button[class="modebut"] {
+      width: 13ex;
+      height: 6ex;
+      /* box-shadow: 0 0 15px #00ffff; */
+      border: 1px solid #00ffff;
+      background-color: #00ffff;
+      font-size: 25px;
+      word-wrap: normal;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Poppins';
+      opacity: 1;
+      background-color: #0a0a0a;
+      color: white;
+    }
+
+    button[id="ledstate"] {
+      margin: 10px auto;
+    }
+
+    button[id="submitrange"] {
+      margin: 10px auto;
+    }
